@@ -1,0 +1,13 @@
+after creating create user function db was not working it was giving error so created 
+new db and assigned that new db in database url.
+
+for authorize i had used 
+avinash@gmail.com / testing123
+
+installed-> fastapi, uvicorn,python-multipart,python-jose, passlib, bcrypt, pyjwt
+
+u have to go in blog-env -> virtualenv blog-env
+and then have to activate -> source blog-env/bin/activate
+after that reload it -> uvicorn blog.main:app --reload
+
+http://127.0.0.1:8000/docs#/ -> go this url for check the swagger UI.
